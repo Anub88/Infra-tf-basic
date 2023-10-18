@@ -1,0 +1,30 @@
+[
+  {
+    "role_name": "User Access Administrator",
+    "scope": "/subscriptions/{SUBSCRIPTION_ID}/resourceGroups/ctc-{ENV}-{PROJECT_NAME}-cc-rg"
+  },
+  {
+    "role_name": "Contributor",
+    "scope": "/subscriptions/{SUBSCRIPTION_ID}/resourceGroups/ctc-{ENV}-{PROJECT_NAME}-cc-rg"
+  },
+  {
+    "role_name": "Log Analytics Contributor",
+    "scope": "/subscriptions/c1db24d3-f1c5-46b0-8e75-69fc8a0ffd2e/resourceGroups/ctc-prod-loganalytics-workspace-cc-rg"
+  },
+  {
+    "role_name": "Network Contributor",
+    "scope": "/subscriptions/{SUBSCRIPTION_ID}/resourceGroups/ctc-{ENV}-corenetwork-cc-rg/providers/Microsoft.Network/virtualNetworks/ctc-{ENV}-corenetwork-cc-vnet/subnets/ctc-{ENV}-corenetwork-cc-vnet-app01-snet"
+  },
+  {
+    "role_name": "Network Contributor",
+    "scope": "/subscriptions/42c0910c-ba8d-4218-96f2-e8bbcfdb8dc0/resourceGroups/ctc-nonprod-corenetwork-cc-rg/providers/Microsoft.Network/virtualNetworks/ctc-nonprod-corenetwork-cc-vnet-01/subnets/ctc-nonprod-corenetwork-cc-vnet-01-vfe01-snet"
+  },
+  {
+    "role_name": "Network Contributor",
+    "scope": "/subscriptions/42c0910c-ba8d-4218-96f2-e8bbcfdb8dc0/resourceGroups/ctc-nonprod-corenetwork-cc-rg/providers/Microsoft.Network/virtualNetworks/ctc-nonprod-corenetwork-cc-vnet-02/subnets/ctc-nonprod-corenetwork-cc-vnet-02-app02-snet"
+  },
+  {
+    "role_name": "Reader",
+    "scope": "/subscriptions/{SUBSCRIPTION_ID}/resourceGroups/ctc-{ENV}-corenetwork-cc-rg/providers/Microsoft.Network/virtualNetworks/ctc-{ENV}-corenetwork-cc-vnet-01"
+  }
+]
